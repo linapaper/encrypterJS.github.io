@@ -49,6 +49,7 @@ body {
     background: #0A3871;
     border-radius: 24px;
     flex: none;
+    cursor: pointer;
     color: aliceblue; 
     border: none;
 }
@@ -65,6 +66,7 @@ body {
     height: 67px;
     background: #85adde;
     border-radius: 24px;
+    cursor: pointer;
     color: aliceblue; 
     border: none;
 }
