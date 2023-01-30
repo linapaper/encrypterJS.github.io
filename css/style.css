@@ -15,7 +15,7 @@ body {
     text-align: top;
     width: 50%;
     height: 55%;
-    left: 180px;
+    left: 240px;
     top: 168px;
     font-family: 'Inter';
     font-style: normal;
@@ -35,3 +35,36 @@ body {
     border: none;
     outline: none;
 }*/
+
+.encrypted {
+    font-size: 18px;
+    position: absolute;
+    left: 240px;
+    bottom: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    color: aliceblue; 
+    border: none;
+}
+
+.desencrypted {
+    font-size: 18px;
+    position: absolute;
+    left: 620px;
+    bottom: 70px;
+    display: inline-block;
+    text-align: center;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #85adde;
+    border-radius: 24px;
+    color: aliceblue; 
+    border: none;
+}
