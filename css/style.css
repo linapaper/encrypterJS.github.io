@@ -14,7 +14,7 @@ body {
     position: absolute;
     text-align: top;
     width: 50%;
-    height: 70%;
+    height: 55%;
     left: 180px;
     top: 168px;
     font-family: 'Inter';
@@ -27,11 +27,11 @@ body {
     resize: none;
 }
 
-.instruction:focus {
-    border: none;
-    outline: none;
+.instruction::placeholder{
+    color: #4b6963;
 }
 
-.instruction:active {
+/*.instruction:focus {
     border: none;
-}
+    outline: none;
+}*/
