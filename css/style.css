@@ -24,4 +24,14 @@ body {
     line-height: 150%;
     border: none; 
     background: #bad9d3;
+    resize: none;
+}
+
+.instruction:focus {
+    border: none;
+    outline: none;
+}
+
+.instruction:active {
+    border: none;
 }
