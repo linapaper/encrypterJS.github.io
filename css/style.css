@@ -117,3 +117,23 @@ body {
     text-align: center;
     color: #565c61;
 }
+
+.advertencia-uso {
+    position: absolute;
+    left: 240px;
+    bottom: 120px;
+    display: inline-block;
+    text-align: left;
+    width: 328px;
+    height: 67px;
+    border: none;
+}
+
+.texto-advertencia {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
