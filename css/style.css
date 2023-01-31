@@ -69,3 +69,23 @@ body {
     color: aliceblue; 
     border: none;
 }
+
+.caja-mostrador{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1100px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.imagen-buscando{
+    position: relative;
+    padding: 25px 15px 15px 60px;
+    display: inline-block;
+    width: 70%;
+    height: 30%;
+    top: 243px;
+}
