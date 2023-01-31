@@ -31,10 +31,10 @@ body {
     color: #4b6963;
 }
 
-/*.instruction:focus {
+.instruction:focus {
     border: none;
     outline: none;
-}*/
+}
 
 .encrypted {
     font-size: 18px;
@@ -48,7 +48,6 @@ body {
     height: 67px;
     background: #0A3871;
     border-radius: 24px;
-    flex: none;
     cursor: pointer;
     color: aliceblue; 
     border: none;
