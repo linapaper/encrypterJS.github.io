@@ -73,6 +73,7 @@ body {
 }
 
 .caja-mostrador{
+    background-image: url(/imagenes/busqueda.png);
     position: absolute;
     width: 400px;
     height: 700px;
