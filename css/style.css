@@ -72,16 +72,38 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.copiar {
+    font-size: 18px;
+    position: absolute;
+    margin-right: 20px;
+    margin-left: 45px;
+    margin-top: 430px;
+    text-align: center;
+    width: 328px;
+    height: 67px;
+    border: #0A3871;
+    background: #85adde;
+    border-radius: 24px;
+    cursor: pointer;
+    color: aliceblue; 
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
 .caja-mostrador{
     background-image: url(/imagenes/busqueda.png);
+    background-color: #FFFFFF;
     position: absolute;
     width: 400px;
-    height: 700px;
+    height: 650px;
     left: 1100px;
     top: 40px;
-    background: #FFFFFF;
     box-shadow: 0px 24px 32px -10px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 40px;
+    background-size: 80%;
 }
 
 .imagen-buscando{
@@ -96,7 +118,7 @@ body {
 .estatus-mostrador {
     position: relative;
     padding: 18px;
-    top: 160px;
+    top: 400px;
     font-weight: bold;
     font-size: 20px;
     line-height: 120%;
@@ -111,8 +133,8 @@ body {
 
 .descripcion-mostrador {
     position: relative;
-    padding: 18px;
-    top: 120px;
+    /* padding: 18px;*/
+    top: 375px;
     font-weight: normal;
     font-size: 18px;
     line-height: 120%;

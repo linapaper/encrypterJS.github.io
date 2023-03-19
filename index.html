@@ -20,17 +20,23 @@
                     <p class="texto-advertencia">&#9888 Solo usar letras minúsculas y sin acentos</p>
                 </div>
                 <div class="botones">
-                    <input type="button" value="Encriptar" class="encrypted" id="mensaje">
-                    <input type="button" value="Desencriptar" class="desencrypted" id="mensaje">
+                    <input type="button" value="Encriptar" onclick="botonEncrip()" class="encrypted" id="mensaje">
+                    <input type="button" value="Desencriptar" onclick="botonDesencrip()" class="desencrypted" id="mensaje">
                 </div>
             </section>
             <section>
                 <div class="caja-mostrador">
+                    
                     <!-- <img src="imagenes/busqueda.png" alt="ilustracion buscando" class="imagen-buscando"> -->
                     <p class="estatus-mostrador">Ningún mensaje fue encontrado</p>
                     <p class="descripcion-mostrador">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <!--<div>
+                        <button class="copiar">Copiar</button>
+                    </div> -->
                 </div>
+               
             </section>
         </main>
+    <script src="script.js"></script>
     </body>
 </html>
